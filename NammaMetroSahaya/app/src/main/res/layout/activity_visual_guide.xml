@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F5F5">
+    <include layout="@layout/layout_language_toolbar"/>
+
+    <!-- Top bar -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#7B2D8B"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Visual Guide"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+            android:id="@+id/tvGuideRoute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#E1BEE7"
+            android:layout_marginTop="4dp"/>
+
+    </LinearLayout>
+
+    <!-- Step progress indicator -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center"
+        android:background="#FFFFFF">
+
+        <TextView
+            android:id="@+id/tvStepProgress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#7B2D8B"
+            android:textStyle="bold"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/tvStepFraction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#9E9E9E"/>
+
+    </LinearLayout>
+
+    <!-- Progress bar -->
+    <ProgressBar
+        android:id="@+id/progressGuide"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:progressTint="#7B2D8B"
+        android:progressBackgroundTint="#E1BEE7"/>
+
+    <!-- Step content card -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Step icon area -->
+            <androidx.cardview.widget.CardView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="4dp"
+                app:cardBackgroundColor="#FFFFFF"
+                android:layout_marginBottom="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="24dp"
+                    android:gravity="center">
+
+                    <!-- Step number circle -->
+                    <TextView
+                        android:id="@+id/tvStepNumber"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:gravity="center"
+                        android:textSize="28sp"
+                        android:textStyle="bold"
+                        android:textColor="#FFFFFF"
+                        android:background="@drawable/step_active"
+                        android:layout_marginBottom="16dp"/>
+
+                    <!-- Step title -->
+                    <TextView
+                        android:id="@+id/tvStepTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="#1A1A1A"
+                        android:gravity="center"
+                        android:layout_marginBottom="12dp"/>
+
+                    <!-- Step description -->
+                    <TextView
+                        android:id="@+id/tvStepDesc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:textColor="#424242"
+                        android:gravity="center"
+                        android:lineSpacingExtra="6dp"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Tip card -->
+            <androidx.cardview.widget.CardView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/cardTip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="2dp"
+                app:cardBackgroundColor="#F3E5F5">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="TIP"
+                        android:textSize="11sp"
+                        android:textStyle="bold"
+                        android:textColor="#7B2D8B"
+                        android:letterSpacing="0.1"
+                        android:layout_marginBottom="6dp"/>
+
+                    <TextView
+                        android:id="@+id/tvStepTip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:textColor="#4A148C"
+                        android:lineSpacingExtra="4dp"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Bottom navigation buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20dp"
+        android:background="#FFFFFF"
+        android:elevation="8dp"
+        android:gravity="center_vertical">
+
+        <Button
+            android:id="@+id/btnPrevStep"
+            android:layout_width="0dp"
+            android:layout_height="52dp"
+            android:layout_weight="1"
+            android:text="← Previous"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/button_outline"
+            android:layout_marginEnd="12dp"/>
+
+        <Button
+            android:id="@+id/btnNextStep"
+            android:layout_width="0dp"
+            android:layout_height="52dp"
+            android:layout_weight="1"
+            android:text="Next →"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/button_rounded"/>
+
+    </LinearLayout>
+
+</LinearLayout>

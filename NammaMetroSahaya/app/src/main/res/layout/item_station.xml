@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingVertical="10dp"
+    android:gravity="center_vertical">
+
+    <!-- Colored dot showing line color -->
+    <View
+        android:id="@+id/viewLineDot"
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:background="@drawable/circle_dot"
+        android:layout_marginEnd="14dp"/>
+
+    <!-- Station name -->
+    <TextView
+        android:id="@+id/tvStationName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="15sp"
+        android:textColor="#1A1A1A"/>
+
+    <!-- Interchange badge -->
+    <TextView
+        android:id="@+id/tvInterchangeBadge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INTERCHANGE"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:textColor="#7B2D8B"
+        android:background="@drawable/badge_interchange"
+        android:paddingHorizontal="8dp"
+        android:paddingVertical="3dp"
+        android:visibility="gone"/>
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<resources>
+
+    <style name="Theme.NammaMetroSahaya" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#7B2D8B</item>
+        <item name="colorPrimaryVariant">#4A148C</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondary">#2E7D32</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+        <item name="android:windowBackground">#F5F5F5</item>
+        <item name="android:statusBarColor">#7B2D8B</item>
+        <item name="android:navigationBarColor">#FFFFFF</item>
+    </style>
+
+    <!-- Splash screen theme — no action bar, purple background -->
+    <style name="Theme.NammaMetroSahaya.Splash" parent="Theme.NammaMetroSahaya">
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+</resources>

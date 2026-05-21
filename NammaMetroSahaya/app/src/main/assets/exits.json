@@ -1,0 +1,80 @@
+{
+  "exits": [
+    {
+      "station": "Majestic",
+      "exits": [
+        {"gate": "Exit 1", "landmark": "KSRTC Central Bus Stand", "direction": "Walk straight 50m after exit"},
+        {"gate": "Exit 2", "landmark": "Gubbi Thotadappa Park", "direction": "Turn left after exit, walk 100m"},
+        {"gate": "Exit 3", "landmark": "City Railway Station", "direction": "Turn right, walk 200m"},
+        {"gate": "Exit 4", "landmark": "Majestic Shopping Area", "direction": "Directly outside the exit"}
+      ]
+    },
+    {
+      "station": "MG Road",
+      "exits": [
+        {"gate": "Exit 1", "landmark": "Brigade Road", "direction": "Turn left after exit, walk 200m"},
+        {"gate": "Exit 2", "landmark": "Anil Kumble Circle", "direction": "Directly outside the exit"},
+        {"gate": "Exit 3", "landmark": "Trinity Circle", "direction": "Turn right, walk 300m"}
+      ]
+    },
+    {
+      "station": "Indiranagar",
+      "exits": [
+        {"gate": "Exit 1", "landmark": "100 Feet Road", "direction": "Directly outside the exit"},
+        {"gate": "Exit 2", "landmark": "Indiranagar Bus Stop", "direction": "Turn left, walk 100m"},
+        {"gate": "Exit 3", "landmark": "CMH Road", "direction": "Turn right after exit, walk 150m"}
+      ]
+    },
+    {
+      "station": "Baiyappanahalli",
+      "exits": [
+        {"gate": "Exit 1", "landmark": "Baiyappanahalli Bus Stand", "direction": "Directly outside the exit"},
+        {"gate": "Exit 2", "landmark": "Old Madras Road", "direction": "Turn left, walk 100m"}
+      ]
+    },
+    {
+      "station": "Cubbon Park",
+      "exits": [
+        {"gate": "Exit 1", "landmark": "Cubbon Park Main Gate", "direction": "Directly outside the exit"},
+        {"gate": "Exit 2", "landmark": "High Court of Karnataka", "direction": "Turn right, walk 200m"},
+        {"gate": "Exit 3", "landmark": "Vidhana Soudha", "direction": "Turn left, walk 300m"}
+      ]
+    },
+    {
+      "station": "Yeshwanthpur",
+      "exits": [
+        {"gate": "Exit 1", "landmark": "Yeshwanthpur Bus Stand", "direction": "Directly outside the exit"},
+        {"gate": "Exit 2", "landmark": "Yeshwanthpur Railway Station", "direction": "Turn left, walk 200m"},
+        {"gate": "Exit 3", "landmark": "Orion Mall", "direction": "Turn right, walk 400m"}
+      ]
+    },
+    {
+      "station": "Mysuru Road",
+      "exits": [
+        {"gate": "Exit 1", "landmark": "Mysuru Road Bus Stand", "direction": "Directly outside the exit"},
+        {"gate": "Exit 2", "landmark": "NICE Road Junction", "direction": "Turn right, walk 300m"}
+      ]
+    },
+    {
+      "station": "Rajajinagar",
+      "exits": [
+        {"gate": "Exit 1", "landmark": "Rajajinagar Bus Stand", "direction": "Directly outside the exit"},
+        {"gate": "Exit 2", "landmark": "Golf Course Road", "direction": "Turn left, walk 150m"}
+      ]
+    },
+    {
+      "station": "Mantri Square",
+      "exits": [
+        {"gate": "Exit 1", "landmark": "Mantri Square Mall", "direction": "Directly connected to mall"},
+        {"gate": "Exit 2", "landmark": "Sampige Road", "direction": "Turn right after exit, walk 100m"}
+      ]
+    },
+    {
+      "station": "Yelachenahalli",
+      "exits": [
+        {"gate": "Exit 1", "landmark": "Yelachenahalli Bus Stop", "direction": "Directly outside the exit"},
+        {"gate": "Exit 2", "landmark": "JP Nagar 6th Phase", "direction": "Turn left, walk 200m"}
+      ]
+    }
+  ]
+}

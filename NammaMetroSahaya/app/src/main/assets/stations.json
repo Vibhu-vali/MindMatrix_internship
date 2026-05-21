@@ -1,0 +1,286 @@
+{
+  "fareRules": [
+    { "minStops": 1,  "maxStops": 4,  "fare": 10 },
+    { "minStops": 5,  "maxStops": 8,  "fare": 20 },
+    { "minStops": 9,  "maxStops": 14, "fare": 30 },
+    { "minStops": 15, "maxStops": 99, "fare": 40 }
+  ],
+  "stations": [
+    {
+      "id": 1, "name": "Whitefield", "line": "purple",
+      "order": 1, "isInterchange": false,
+      "lat": 12.9698, "lng": 77.7499,
+      "exits": [
+        {"gate": "Exit 1", "landmark": "Whitefield Bus Stand", "direction": "Directly outside"},
+        {"gate": "Exit 2", "landmark": "Whitefield Railway Station", "direction": "Walk 300m south"}
+      ]
+    },
+    {
+      "id": 2, "name": "Hopefarm", "line": "purple",
+      "order": 2, "isInterchange": false,
+      "lat": 12.9743, "lng": 77.7350,
+      "exits": [
+        {"gate": "Exit 1", "landmark": "Hopefarm Junction", "direction": "Directly outside"},
+        {"gate": "Exit 2", "landmark": "ITPL Main Road", "direction": "Turn left, walk 200m"}
+      ]
+    },
+    {
+      "id": 3, "name": "Kadugodi Tree Park", "line": "purple",
+      "order": 3, "isInterchange": false,
+      "lat": 12.9768, "lng": 77.7210,
+      "exits": [
+        {"gate": "Exit 1", "landmark": "Kadugodi Tree Park", "direction": "Directly outside"},
+        {"gate": "Exit 2", "landmark": "Kadugodi Bus Stop", "direction": "Walk 100m north"}
+      ]
+    },
+    {
+      "id": 4, "name": "Seetharamapalya", "line": "purple",
+      "order": 4, "isInterchange": false,
+      "lat": 12.9789, "lng": 77.7090,
+      "exits": [
+        {"gate": "Exit 1", "landmark": "Seetharamapalya Bus Stop", "direction": "Directly outside"}
+      ]
+    },
+    {
+      "id": 5, "name": "Hoodi", "line": "purple",
+      "order": 5, "isInterchange": false,
+      "lat": 12.9801, "lng": 77.6980,
+      "exits": [
+        {"gate": "Exit 1", "landmark": "Hoodi Circle", "direction": "Directly outside"},
+        {"gate": "Exit 2", "landmark": "Hoodi Bus Stop", "direction": "Turn right, walk 100m"}
+      ]
+    },
+    {
+      "id": 6, "name": "Garudacharapalya", "line": "purple",
+      "order": 6, "isInterchange": false,
+      "lat": 12.9820, "lng": 77.6880,
+      "exits": [
+        {"gate": "Exit 1", "landmark": "Garudacharapalya Bus Stop", "direction": "Directly outside"}
+      ]
+    },
+    {
+      "id": 7, "name": "Singayyanapalya", "line": "purple",
+      "order": 7, "isInterchange": false,
+      "lat": 12.9835, "lng": 77.6780,
+      "exits": [
+        {"gate": "Exit 1", "landmark": "Singayyanapalya Bus Stop", "direction": "Directly outside"}
+      ]
+    },
+    {
+      "id": 8, "name": "Pattanduru Agrahara", "line": "purple",
+      "order": 8, "isInterchange": false,
+      "lat": 12.9860, "lng": 77.6680,
+      "exits": [
+        {"gate": "Exit 1", "landmark": "Pattanduru Agrahara Bus Stop", "direction": "Directly outside"}
+      ]
+    },
+    {
+      "id": 9, "name": "Sri Sathya Sai Hospital", "line": "purple",
+      "order": 9, "isInterchange": false,
+      "lat": 12.9885, "lng": 77.6580,
+      "exits": [
+        {"gate": "Exit 1", "landmark": "Sri Sathya Sai Hospital Gate", "direction": "Directly outside"},
+        {"gate": "Exit 2", "landmark": "Whitefield Main Road", "direction": "Turn left, walk 100m"}
+      ]
+    },
+    {
+      "id": 10, "name": "Nallurhalli", "line": "purple",
+      "order": 10, "isInterchange": false,
+      "lat": 12.9910, "lng": 77.6490,
+      "exits": [
+        {"gate": "Exit 1", "landmark": "Nallurhalli Bus Stop", "direction": "Directly outside"}
+      ]
+    },
+    {
+      "id": 11, "name": "Kundalahalli", "line": "purple",
+      "order": 11, "isInterchange": false,
+      "lat": 12.9930, "lng": 77.6400,
+      "exits": [
+        {"gate": "Exit 1", "landmark": "Kundalahalli Gate", "direction": "Directly outside"},
+        {"gate": "Exit 2", "landmark": "Kundalahalli Colony", "direction": "Turn right, walk 200m"}
+      ]
+    },
+    {
+      "id": 12, "name": "Krishnarajapura", "line": "purple",
+      "order": 12, "isInterchange": false,
+      "lat": 12.9955, "lng": 77.6310,
+      "exits": [
+        {"gate": "Exit 1", "landmark": "KR Pura Bus Stand", "direction": "Directly outside"},
+        {"gate": "Exit 2", "landmark": "KR Pura Railway Station", "direction": "Walk 400m south"}
+      ]
+    },
+    {
+      "id": 13, "name": "Benniganahalli", "line": "purple",
+      "order": 13, "isInterchange": false,
+      "lat": 12.9975, "lng": 77.6200,
+      "exits": [
+        {"gate": "Exit 1", "landmark": "Benniganahalli Bus Stop", "direction": "Directly outside"}
+      ]
+    },
+    {
+      "id": 14, "name": "Baiyappanahalli", "line": "purple",
+      "order": 14, "isInterchange": false,
+      "lat": 12.9988, "lng": 77.6103,
+      "exits": [
+        {"gate": "Exit 1", "landmark": "Baiyappanahalli Bus Stand", "direction": "Directly outside"},
+        {"gate": "Exit 2", "landmark": "Old Madras Road", "direction": "Turn left, walk 100m"}
+      ]
+    },
+    {
+      "id": 15, "name": "Swami Vivekananda Road", "line": "purple",
+      "order": 15, "isInterchange": false,
+      "lat": 12.9930, "lng": 77.6543,
+      "exits": [
+        {"gate": "Exit 1", "landmark": "Swami Vivekananda Road Bus Stop", "direction": "Directly outside"},
+        {"gate": "Exit 2", "landmark": "Domlur Flyover", "direction": "Turn right, walk 200m"}
+      ]
+    },
+    {
+      "id": 16, "name": "Indiranagar", "line": "purple",
+      "order": 16, "isInterchange": false,
+      "lat": 12.9784, "lng": 77.6408,
+      "exits": [
+        {"gate": "Exit 1", "landmark": "100 Feet Road", "direction": "Directly outside"},
+        {"gate": "Exit 2", "landmark": "Indiranagar Bus Stop", "direction": "Turn left, walk 100m"},
+        {"gate": "Exit 3", "landmark": "CMH Road", "direction": "Turn right, walk 150m"}
+      ]
+    },
+    {
+      "id": 17, "name": "Halasuru", "line": "purple",
+      "order": 17, "isInterchange": false,
+      "lat": 12.9769, "lng": 77.6267,
+      "exits": [
+        {"gate": "Exit 1", "landmark": "Halasuru Bus Stop", "direction": "Directly outside"},
+        {"gate": "Exit 2", "landmark": "Ulsoor Lake", "direction": "Walk 300m north"}
+      ]
+    },
+    {
+      "id": 18, "name": "Trinity", "line": "purple",
+      "order": 18, "isInterchange": false,
+      "lat": 12.9755, "lng": 77.6187,
+      "exits": [
+        {"gate": "Exit 1", "landmark": "Trinity Circle", "direction": "Directly outside"},
+        {"gate": "Exit 2", "landmark": "Airport Road", "direction": "Turn right, walk 100m"}
+      ]
+    },
+    {
+      "id": 19, "name": "MG Road", "line": "purple",
+      "order": 19, "isInterchange": false,
+      "lat": 12.9757, "lng": 77.6107,
+      "exits": [
+        {"gate": "Exit 1", "landmark": "Brigade Road", "direction": "Turn left, walk 200m"},
+        {"gate": "Exit 2", "landmark": "Anil Kumble Circle", "direction": "Directly outside"},
+        {"gate": "Exit 3", "landmark": "Trinity Circle", "direction": "Turn right, walk 300m"}
+      ]
+    },
+    {
+      "id": 20, "name": "Cubbon Park", "line": "purple",
+      "order": 20, "isInterchange": false,
+      "lat": 12.9765, "lng": 77.5993,
+      "exits": [
+        {"gate": "Exit 1", "landmark": "Cubbon Park Main Gate", "direction": "Directly outside"},
+        {"gate": "Exit 2", "landmark": "High Court of Karnataka", "direction": "Turn right, walk 200m"},
+        {"gate": "Exit 3", "landmark": "Vidhana Soudha", "direction": "Turn left, walk 300m"}
+      ]
+    },
+    {
+      "id": 21, "name": "Vidhana Soudha", "line": "purple",
+      "order": 21, "isInterchange": false,
+      "lat": 12.9793, "lng": 77.5908,
+      "exits": [
+        {"gate": "Exit 1", "landmark": "Vidhana Soudha Gate", "direction": "Directly outside"},
+        {"gate": "Exit 2", "landmark": "Raj Bhavan Road", "direction": "Turn left, walk 150m"}
+      ]
+    },
+    {
+      "id": 22, "name": "Sir M Visveshwaraya", "line": "purple",
+      "order": 22, "isInterchange": false,
+      "lat": 12.9779, "lng": 77.5731,
+      "exits": [
+        {"gate": "Exit 1", "landmark": "City Railway Station", "direction": "Walk 400m south"},
+        {"gate": "Exit 2", "landmark": "Kempe Gowda Road", "direction": "Directly outside"}
+      ]
+    },
+    {
+      "id": 23, "name": "Majestic", "line": "purple",
+      "order": 23, "isInterchange": true,
+      "lat": 12.9767, "lng": 77.5713,
+      "exits": [
+        {"gate": "Exit 1", "landmark": "KSRTC Central Bus Stand", "direction": "Walk straight 50m"},
+        {"gate": "Exit 2", "landmark": "Gubbi Thotadappa Park", "direction": "Turn left, walk 100m"},
+        {"gate": "Exit 3", "landmark": "City Railway Station", "direction": "Turn right, walk 200m"},
+        {"gate": "Exit 4", "landmark": "Majestic Shopping Area", "direction": "Directly outside"}
+      ]
+    },
+    {
+      "id": 24, "name": "City Railway Station", "line": "purple",
+      "order": 24, "isInterchange": false,
+      "lat": 12.9774, "lng": 77.5667,
+      "exits": [
+        {"gate": "Exit 1", "landmark": "KSR Bengaluru Railway Station", "direction": "Directly outside"},
+        {"gate": "Exit 2", "landmark": "Gandhi Nagar Bus Stop", "direction": "Turn left, walk 100m"}
+      ]
+    },
+    {
+      "id": 25, "name": "Magadi Road", "line": "purple",
+      "order": 25, "isInterchange": false,
+      "lat": 12.9744, "lng": 77.5538,
+      "exits": [
+        {"gate": "Exit 1", "landmark": "Magadi Road Bus Stand", "direction": "Directly outside"},
+        {"gate": "Exit 2", "landmark": "Rajajinagar Circle", "direction": "Walk 300m north"}
+      ]
+    },
+    {
+      "id": 26, "name": "Hosahalli", "line": "purple",
+      "order": 26, "isInterchange": false,
+      "lat": 12.9715, "lng": 77.5413,
+      "exits": [
+        {"gate": "Exit 1", "landmark": "Hosahalli Bus Stop", "direction": "Directly outside"}
+      ]
+    },
+    {
+      "id": 27, "name": "Vijayanagar", "line": "purple",
+      "order": 27, "isInterchange": false,
+      "lat": 12.9709, "lng": 77.5317,
+      "exits": [
+        {"gate": "Exit 1", "landmark": "Vijayanagar Bus Stand", "direction": "Directly outside"},
+        {"gate": "Exit 2", "landmark": "Chord Road", "direction": "Turn right, walk 200m"}
+      ]
+    },
+    {
+      "id": 28, "name": "Attiguppe", "line": "purple",
+      "order": 28, "isInterchange": false,
+      "lat": 12.9650, "lng": 77.5225,
+      "exits": [
+        {"gate": "Exit 1", "landmark": "Attiguppe Bus Stop", "direction": "Directly outside"}
+      ]
+    },
+    {
+      "id": 29, "name": "Deepanjali Nagar", "line": "purple",
+      "order": 29, "isInterchange": false,
+      "lat": 12.9583, "lng": 77.5142,
+      "exits": [
+        {"gate": "Exit 1", "landmark": "Deepanjali Nagar Bus Stop", "direction": "Directly outside"}
+      ]
+    },
+    {
+      "id": 30, "name": "Mysuru Road", "line": "purple",
+      "order": 30, "isInterchange": false,
+      "lat": 12.9521, "lng": 77.5039,
+      "exits": [
+        {"gate": "Exit 1", "landmark": "Mysuru Road Bus Stand", "direction": "Directly outside"},
+        {"gate": "Exit 2", "landmark": "NICE Road Junction", "direction": "Turn right, walk 300m"}
+      ]
+    },
+    {
+      "id": 31, "name": "Nagasandra", "line": "green",
+      "order": 1, "isInterchange": false,
+      "lat": 13.0507, "lng": 77.5127,
+      "exits": [
+        {"gate": "Exit 1", "landmark": "Nagasandra Bus Stop", "direction": "Directly outside"},
+        {"gate": "Exit 2", "landmark": "Tumkur Road", "direction": "Turn left, walk 200m"}
+      ]
+    },
+    {
+      "id": 32, "name": "Dasarahalli", "line": "green",
+      "order": 2,

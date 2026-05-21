@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include layout="@layout/layout_language_toolbar"/>
+
+    <!-- Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#7B2D8B"
+        android:padding="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Metro Map (Offline)"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pinch to zoom · Drag to pan · Tap station for info"
+            android:textSize="12sp"
+            android:textColor="#E1BEE7"
+            android:layout_marginTop="4dp"/>
+
+    </LinearLayout>
+
+    <!-- Canvas Map -->
+    <com.example.nammametrosahaya.MetroCanvasView
+        android:id="@+id/metroCanvasView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#F5F5F5"/>
+
+    <!-- Station info bottom card -->
+    <androidx.cardview.widget.CardView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/cardOfflineStation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="0dp"
+        app:cardElevation="12dp"
+        app:cardBackgroundColor="#FFFFFF"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/tvOfflineStationName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#1A1A1A"/>
+
+            <TextView
+                android:id="@+id/tvOfflineStationLine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/tvOfflineExits"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:textColor="#424242"
+                android:lineSpacingExtra="4dp"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

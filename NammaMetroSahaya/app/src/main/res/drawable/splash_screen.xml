@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Purple background -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#7B2D8B"/>
+        </shape>
+    </item>
+
+    <!-- Centered app icon -->
+    <item
+        android:gravity="center"
+        android:drawable="@drawable/ic_metro"/>
+
+</layer-list>
